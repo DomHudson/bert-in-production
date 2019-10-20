@@ -19,8 +19,14 @@ The original code. TensorFlow code and pre-trained models for BERT.
 - [huggingface/transformers](https://github.com/huggingface/transformers)
 ￼Transformers: State-of-the-art Natural Language Processing for TensorFlow 2.0 and PyTorch.
 
+- [codertimo/BERT-pytorch](https://github.com/codertimo/BERT-pytorch)
+Google AI 2018 BERT pytorch implementation
+
 - [kaushaltrivedi/fast-bert](https://github.com/kaushaltrivedi/fast-bert)
 Super easy library for BERT based NLP models
+
+- [CyberZHG/keras-bert](https://github.com/CyberZHG/keras-bert)
+Implementation of BERT that could load official pre-trained models for feature extraction and prediction
 
 ## Papers for Knowledge Distillation of Bert - reduce the model size and inference latency by distilling BERT into smaller models
 
