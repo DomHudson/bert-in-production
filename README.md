@@ -3,8 +3,7 @@
 A small collection of resources on using BERT (https://arxiv.org/abs/1810.04805
 ) and related Language Models in production environments.
 
-## Descriptive Resources
-### Resources on how BERT works.
+## Descriptive Resources - how BERT works.
 
 - [Visualizing A Neural Machine Translation Model (Mechanics of Seq2seq Models With Attention)](https://jalammar.github.io/visualizing-neural-machine-translation-mechanics-of-seq2seq-models-with-attention/)
 
@@ -12,8 +11,7 @@ A small collection of resources on using BERT (https://arxiv.org/abs/1810.04805
 
 - [Sequence-to-sequence modeling with `NN.TRANSFORMER` and `TORCHTEXT`](https://pytorch.org/tutorials/beginner/transformer_tutorial.html)
 
-## Implementation Resources
-### Resources with implementations of BERT.
+## Implementation Resources - implementations of BERT.
 
 - [google-research/bert](https://github.com/google-research/bert)
 The original code. TensorFlow code and pre-trained models for BERT.
@@ -24,8 +22,7 @@ The original code. TensorFlow code and pre-trained models for BERT.
 - [kaushaltrivedi/fast-bert](https://github.com/kaushaltrivedi/fast-bert)
 Super easy library for BERT based NLP models
 
-## Papers for Knowledge Distillation of Bert
-### Resources on reducing the model size and inference latency by distilling BERT into smaller models, thereby making BERT more production-friendly.
+## Papers for Knowledge Distillation of Bert - reduce the model size and inference latency by distilling BERT into smaller models
 
 - [Distilling Task-Specific Knowledge from BERT into Simple Neural Networks](https://arxiv.org/abs/1903.12136)
 
