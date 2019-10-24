@@ -11,6 +11,10 @@ A small collection of resources on using BERT (https://arxiv.org/abs/1810.04805
 
 - [Sequence-to-sequence modeling with `NN.TRANSFORMER` and `TORCHTEXT`](https://pytorch.org/tutorials/beginner/transformer_tutorial.html)
 
+- [Exploring BERT's Vocabulary](http://juditacs.github.io/2019/02/19/bert-tokenization-stats.html)
+
+- [BERT to the rescue!](https://towardsdatascience.com/bert-to-the-rescue-17671379687f)
+
 ## Implementation Resources - implementations of BERT.
 
 - [google-research/bert](https://github.com/google-research/bert)
@@ -27,6 +31,10 @@ Super easy library for BERT based NLP models
 
 - [CyberZHG/keras-bert](https://github.com/CyberZHG/keras-bert)
 Implementation of BERT that could load official pre-trained models for feature extraction and prediction
+
+- [hanxiao/bert-as-service](https://github.com/hanxiao/bert-as-service)
+ `bert-as-service` uses BERT as a sentence encoder and hosts it as a service via ZeroMQ, allowing you to map sentences into fixed-length representations in just two lines of code.
+
 
 ## Papers for Knowledge Distillation of Bert - reduce the model size and inference latency by distilling BERT into smaller models
 
