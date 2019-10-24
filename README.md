@@ -15,6 +15,8 @@ A small collection of resources on using BERT (https://arxiv.org/abs/1810.04805
 
 - [BERT to the rescue!](https://towardsdatascience.com/bert-to-the-rescue-17671379687f)
 
+- [Pre-training BERT from scratch with cloud TPU](https://mc.ai/pre-training-bert-from-scratch-with-cloud-tpu/)
+
 ## Implementation Resources - implementations of BERT.
 
 - [google-research/bert](https://github.com/google-research/bert)
