@@ -3,6 +3,7 @@
 A small collection of resources on using BERT (https://arxiv.org/abs/1810.04805
 ) and related Language Models in production environments.
 
+
 ## Descriptive Resources - how BERT works.
 
 - [Visualizing A Neural Machine Translation Model (Mechanics of Seq2seq Models With Attention)](https://jalammar.github.io/visualizing-neural-machine-translation-mechanics-of-seq2seq-models-with-attention/)
@@ -16,6 +17,8 @@ A small collection of resources on using BERT (https://arxiv.org/abs/1810.04805
 - [BERT to the rescue!](https://towardsdatascience.com/bert-to-the-rescue-17671379687f)
 
 - [Pre-training BERT from scratch with cloud TPU](https://mc.ai/pre-training-bert-from-scratch-with-cloud-tpu/)
+
+- [BERT Technology introduced in 3-minutes](https://towardsdatascience.com/bert-technology-introduced-in-3-minutes-2c2f9968268c)
 
 ## Implementation Resources - implementations of BERT.
 
