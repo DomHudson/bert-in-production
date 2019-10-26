@@ -20,7 +20,7 @@ A small collection of resources on using BERT (https://arxiv.org/abs/1810.04805
 
 - [BERT Technology introduced in 3-minutes](https://towardsdatascience.com/bert-technology-introduced-in-3-minutes-2c2f9968268c)
 
-- [BERT, RoBERTa, DistilBERT, XLNet — which one to use?] (https://towardsdatascience.com/bert-roberta-distilbert-xlnet-which-one-to-use-3d5ab82ba5f8#e18a-828e5fc317c7)
+- [BERT, RoBERTa, DistilBERT, XLNet — which one to use?](https://towardsdatascience.com/bert-roberta-distilbert-xlnet-which-one-to-use-3d5ab82ba5f8#e18a-828e5fc317c7)
 
 ## Implementation Resources - implementations of BERT.
 
