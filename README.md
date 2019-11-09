@@ -60,3 +60,9 @@ Implementation of BERT that could load official pre-trained models for feature e
 - [DistilBERT, a distilled version of BERT: smaller, faster, cheaper and lighter](https://arxiv.org/abs/1910.01108)
 
 - [DistilBERT, a distilled version of BERT: smaller, faster, cheaper and lighter (article)](https://medium.com/huggingface/distilbert-8cf3380435b5)
+
+- [Extreme Language Model Compression with Optimal Subwords and Shared Projections](https://arxiv.org/abs/1909.11687)
+
+- [TinyBERT: Distilling BERT for Natural Language Understanding](https://arxiv.org/abs/1909.10351)
+
+- [Q-BERT: Hessian Based Ultra Low Precision Quantization of BERT](https://arxiv.org/abs/1909.05840)
