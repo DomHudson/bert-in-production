@@ -30,6 +30,9 @@ The original code. TensorFlow code and pre-trained models for BERT.
 - [huggingface/transformers](https://github.com/huggingface/transformers)
 ￼Transformers: State-of-the-art Natural Language Processing for TensorFlow 2.0 and PyTorch.
 
+- [spacy-transformers](https://github.com/explosion/spacy-transformers)
+spaCy pipelines for pre-trained BERT, XLNet and GPT-2 
+
 - [codertimo/BERT-pytorch](https://github.com/codertimo/BERT-pytorch)
 Google AI 2018 BERT pytorch implementation
 
@@ -42,7 +45,6 @@ Implementation of BERT that could load official pre-trained models for feature e
 - [hanxiao/bert-as-service](https://github.com/hanxiao/bert-as-service)
  `bert-as-service` uses BERT as a sentence encoder and hosts it as a service via ZeroMQ, allowing you to map sentences into fixed-length representations in just two lines of code.
 
-
 ## Related Papers
 
 - [BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding](https://arxiv.org/pdf/1810.04805.pdf)
@@ -53,7 +55,7 @@ Implementation of BERT that could load official pre-trained models for feature e
 
 - [Distilling Task-Specific Knowledge from BERT into Simple Neural Networks](https://arxiv.org/abs/1903.12136)
 
-- [BERT: A Lite BERT for Self-supervised Learning of Language Representations](https://arxiv.org/abs/1909.11942)
+- [ALBERT: A Lite BERT for Self-supervised Learning of Language Representations](https://arxiv.org/abs/1909.11942)
 
 - [TinyBERT: Distilling BERT for Natural Language Understanding](https://arxiv.org/abs/1909.10351)
 
