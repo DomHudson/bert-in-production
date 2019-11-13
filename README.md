@@ -54,10 +54,13 @@ Implementation of BERT that could load official pre-trained models for feature e
 ## General Resources
 
 - [BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding](https://arxiv.org/pdf/1810.04805.pdf)
+Original BERT paper.
 
 - [RoBERTa: A Robustly Optimized BERT Pretraining Approach](https://arxiv.org/pdf/1907.11692.pdf)
+Original RoBERTa paper.
 
 - [SentencePiece: A simple and language independent subword tokenizer and detokenizer for Neural Text Processing](https://www.aclweb.org/anthology/D18-2012.pdf)
+Paper describing a similar sub-word tokenization approach to BERT's.
 
 ## Knowledge Distillation
 
