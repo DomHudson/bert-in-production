@@ -45,7 +45,7 @@ Implementation of BERT that could load official pre-trained models for feature e
 - [hanxiao/bert-as-service](https://github.com/hanxiao/bert-as-service)
  `bert-as-service` uses BERT as a sentence encoder and hosts it as a service via ZeroMQ, allowing you to map sentences into fixed-length representations in just two lines of code.
 
-## Related Papers
+## General Resources
 
 - [BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding](https://arxiv.org/pdf/1810.04805.pdf)
 
@@ -53,9 +53,11 @@ Implementation of BERT that could load official pre-trained models for feature e
 
 - [SentencePiece: A simple and language independent subword tokenizer and detokenizer for Neural Text Processing](https://www.aclweb.org/anthology/D18-2012.pdf)
 
-- [Distilling Task-Specific Knowledge from BERT into Simple Neural Networks](https://arxiv.org/abs/1903.12136)
+## Knowledge Distillation
 
-- [ALBERT: A Lite BERT for Self-supervised Learning of Language Representations](https://arxiv.org/abs/1909.11942)
+One technique to make large models more production ready is to train a smaller "student" network on the outputs of the larger "teacher" network. This is called Knowledge Distillation.
+
+- [Distilling Task-Specific Knowledge from BERT into Simple Neural Networks](https://arxiv.org/abs/1903.12136)
 
 - [TinyBERT: Distilling BERT for Natural Language Understanding](https://arxiv.org/abs/1909.10351)
 
@@ -63,8 +65,12 @@ Implementation of BERT that could load official pre-trained models for feature e
 
 - [DistilBERT, a distilled version of BERT: smaller, faster, cheaper and lighter (article)](https://medium.com/huggingface/distilbert-8cf3380435b5)
 
-- [Extreme Language Model Compression with Optimal Subwords and Shared Projections](https://arxiv.org/abs/1909.11687)
-
 - [TinyBERT: Distilling BERT for Natural Language Understanding](https://arxiv.org/abs/1909.10351)
+
+## Other Resources
+
+- [ALBERT: A Lite BERT for Self-supervised Learning of Language Representations](https://arxiv.org/abs/1909.11942)
+
+- [Extreme Language Model Compression with Optimal Subwords and Shared Projections](https://arxiv.org/abs/1909.11687)
 
 - [Q-BERT: Hessian Based Ultra Low Precision Quantization of BERT](https://arxiv.org/abs/1909.05840)
