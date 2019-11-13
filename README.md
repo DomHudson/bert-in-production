@@ -27,6 +27,12 @@ A small collection of resources on using BERT (https://arxiv.org/abs/1810.04805
 - [google-research/bert](https://github.com/google-research/bert)
 The original code. TensorFlow code and pre-trained models for BERT.
 
+- [pytorch/fairseq](https://github.com/pytorch/fairseq)
+Facebook AI Research Sequence-to-Sequence Toolkit written in Python. Contains the original code for RoBERTa.
+
+- [google-research/google-research](https://github.com/google-research/google-research/tree/master/albert)
+Google AI Research. Contains original code for Albert.
+
 - [huggingface/transformers](https://github.com/huggingface/transformers)
 ￼Transformers: State-of-the-art Natural Language Processing for TensorFlow 2.0 and PyTorch.
 
@@ -68,6 +74,12 @@ One technique to make large models more production ready is to train a smaller "
 - [TinyBERT: Distilling BERT for Natural Language Understanding](https://arxiv.org/abs/1909.10351)
 
 ## Other Resources
+
+- [Pruning bert to accelerate inference](https://blog.rasa.com/pruning-bert-to-accelerate-inference/)
+Learn how to make BERT smaller and faster
+
+- [Compression BERT for faster prediction](https://blog.rasa.com/compressing-bert-for-faster-prediction-2/)
+Learn how to use pruning to speed up BERT
 
 - [ALBERT: A Lite BERT for Self-supervised Learning of Language Representations](https://arxiv.org/abs/1909.11942)
 
