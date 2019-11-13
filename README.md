@@ -78,6 +78,10 @@ One technique to make large models more production ready is to train a smaller "
 
 ## Other Resources
 
+- [Deploying BERT in production](https://towardsdatascience.com/deploy-bert-ef20636fc337)
+
+- [Serving Google BERT in Production using Tensorflow and ZeroMQ](http://hanxiao.io/2019/01/02/Serving-Google-BERT-in-Production-using-Tensorflow-and-ZeroMQ/)
+
 - [Pruning bert to accelerate inference](https://blog.rasa.com/pruning-bert-to-accelerate-inference/)
 Learn how to make BERT smaller and faster
 
