@@ -95,3 +95,5 @@ Learn how to use pruning to speed up BERT
 - [Extreme Language Model Compression with Optimal Subwords and Shared Projections](https://arxiv.org/abs/1909.11687)
 
 - [Q-BERT: Hessian Based Ultra Low Precision Quantization of BERT](https://arxiv.org/abs/1909.05840)
+
+- [Improving Neural Machine Translation with Parent-Scaled Self-Attention](https://arxiv.org/abs/1909.03149)
