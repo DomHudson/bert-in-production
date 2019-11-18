@@ -72,13 +72,11 @@ One technique to make large models more production ready is to train a smaller "
 
 - [TinyBERT: Distilling BERT for Natural Language Understanding](https://arxiv.org/abs/1909.10351)
 
-- [DistilBERT, a distilled version of BERT: smaller, faster, cheaper and lighter](https://arxiv.org/abs/1910.01108)
-
-- [DistilBERT, a distilled version of BERT: smaller, faster, cheaper and lighter (article)](https://medium.com/huggingface/distilbert-8cf3380435b5)
-
-- [TinyBERT: Distilling BERT for Natural Language Understanding](https://arxiv.org/abs/1909.10351)
+- [DistilBERT, a distilled version of BERT: smaller, faster, cheaper and lighter](https://arxiv.org/abs/1910.01108) DistilBERT is a popular distilled bert by the authors of the huggingface library. They use half of the number of layers as BERT. [Related article](https://medium.com/huggingface/distilbert-8cf3380435b5)
 
 ## Other Resources
+
+- [ALBERT: A Lite BERT for Self-supervised Learning of Language Representations](https://arxiv.org/abs/1909.11942) Albert primarily aims to reduce the number of trainable parameters in a BERT model. Albert shares all weights in the transformer encoder layers and decouples the dimension of the word embeddings from the dimensions of the transformer. 
 
 - [Deploying BERT in production](https://towardsdatascience.com/deploy-bert-ef20636fc337)
 
@@ -89,8 +87,6 @@ Learn how to make BERT smaller and faster
 
 - [Compression BERT for faster prediction](https://blog.rasa.com/compressing-bert-for-faster-prediction-2/)
 Learn how to use pruning to speed up BERT
-
-- [ALBERT: A Lite BERT for Self-supervised Learning of Language Representations](https://arxiv.org/abs/1909.11942)
 
 - [Extreme Language Model Compression with Optimal Subwords and Shared Projections](https://arxiv.org/abs/1909.11687)
 
