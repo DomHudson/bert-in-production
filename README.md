@@ -77,6 +77,7 @@ One technique to make large models more production ready is to train a smaller "
 ## Investigations Into BERT
 
 - [What Does BERT Look At? An Analysis of BERT's Attention](https://nlp.stanford.edu/pubs/clark2019what.pdf)
+
 - [Investigating BERT’s Knowledge of Language: Five Analysis Methods with NPIs](https://arxiv.org/abs/1909.02597)
 
 ## Other Resources
