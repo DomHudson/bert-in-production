@@ -80,16 +80,9 @@ One technique to make large models more production ready is to train a smaller "
 
 - [Investigating BERT’s Knowledge of Language: Five Analysis Methods with NPIs](https://arxiv.org/abs/1909.02597)
 
-## Other Resources
+## Compression
 
 - [ALBERT: A Lite BERT for Self-supervised Learning of Language Representations](https://arxiv.org/abs/1909.11942) Albert primarily aims to reduce the number of trainable parameters in a BERT model. Albert shares all weights in the transformer encoder layers and decouples the dimension of the word embeddings from the dimensions of the transformer. 
-
-- [Deploying BERT in production](https://towardsdatascience.com/deploy-bert-ef20636fc337)
-
-- [Serving Google BERT in Production using Tensorflow and ZeroMQ](http://hanxiao.io/2019/01/02/Serving-Google-BERT-in-Production-using-Tensorflow-and-ZeroMQ/)
-
-- [Pruning bert to accelerate inference](https://blog.rasa.com/pruning-bert-to-accelerate-inference/)
-Learn how to make BERT smaller and faster
 
 - [Compression BERT for faster prediction](https://blog.rasa.com/compressing-bert-for-faster-prediction-2/)
 Learn how to use pruning to speed up BERT
@@ -97,6 +90,17 @@ Learn how to use pruning to speed up BERT
 - [Extreme Language Model Compression with Optimal Subwords and Shared Projections](https://arxiv.org/abs/1909.11687)
 
 - [Q-BERT: Hessian Based Ultra Low Precision Quantization of BERT](https://arxiv.org/abs/1909.05840)
+
+- [PoWER-BERT: Accelerating BERT inference for Classification Tasks](https://arxiv.org/abs/2001.08950)
+
+## Other Resources
+
+- [Deploying BERT in production](https://towardsdatascience.com/deploy-bert-ef20636fc337)
+
+- [Serving Google BERT in Production using Tensorflow and ZeroMQ](http://hanxiao.io/2019/01/02/Serving-Google-BERT-in-Production-using-Tensorflow-and-ZeroMQ/)
+
+- [Pruning bert to accelerate inference](https://blog.rasa.com/pruning-bert-to-accelerate-inference/)
+Learn how to make BERT smaller and faster
 
 - [Improving Neural Machine Translation with Parent-Scaled Self-Attention](https://arxiv.org/abs/1909.03149)
 
