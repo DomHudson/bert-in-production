@@ -7,7 +7,7 @@ A small collection of resources on using BERT (https://arxiv.org/abs/1810.04805
 ## Implementations
 Implementations and production-ready tools related to BERT.
 
-- [onnxruntime](https://github.com/microsoft/onnxruntime) This library was recently open-sourced by Microsoft; it contains several model-specific optimisations including one for transformer models. It works by compiling a model's architecture through the Open Neural Network Exchange (ONNX) standard and optimising it for a platform's hardware.
+- [microsoft/onnxruntime](https://github.com/microsoft/onnxruntime) This library was recently open-sourced by Microsoft; it contains several model-specific optimisations including one for transformer models. It works by compiling a model's architecture through the Open Neural Network Exchange (ONNX) standard and optimising it for a platform's hardware.
 
 - [google-research/bert](https://github.com/google-research/bert)
 The original code. TensorFlow code and pre-trained models for BERT.
