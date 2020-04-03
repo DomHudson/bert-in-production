@@ -65,6 +65,7 @@ These papers do a deep analysis of the internals of BERT. Understanding the inte
 
 - [Investigating BERT’s Knowledge of Language: Five Analysis Methods with NPIs](https://arxiv.org/abs/1909.02597)
 
+- [On Identifiability in Transformers](https://arxiv.org/abs/1908.04211)
 
 ## General Resources
 
