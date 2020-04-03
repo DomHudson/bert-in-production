@@ -4,27 +4,9 @@ A small collection of resources on using BERT (https://arxiv.org/abs/1810.04805
 ) and related Language Models in production environments.
 
 
-## Descriptive Resources - how BERT works.
+## Implementation Resources - implementations of BERT and production-ready tools
 
-- [Visualizing A Neural Machine Translation Model (Mechanics of Seq2seq Models With Attention)](https://jalammar.github.io/visualizing-neural-machine-translation-mechanics-of-seq2seq-models-with-attention/)
-
-- [The Illustrated Transformer](http://jalammar.github.io/illustrated-transformer/)
-
-- [Sequence-to-sequence modeling with `NN.TRANSFORMER` and `TORCHTEXT`](https://pytorch.org/tutorials/beginner/transformer_tutorial.html)
-
-- [Exploring BERT's Vocabulary](http://juditacs.github.io/2019/02/19/bert-tokenization-stats.html)
-
-- [BERT to the rescue!](https://towardsdatascience.com/bert-to-the-rescue-17671379687f)
-
-- [Pre-training BERT from scratch with cloud TPU](https://mc.ai/pre-training-bert-from-scratch-with-cloud-tpu/)
-
-- [BERT Technology introduced in 3-minutes](https://towardsdatascience.com/bert-technology-introduced-in-3-minutes-2c2f9968268c)
-
-- [BERT, RoBERTa, DistilBERT, XLNet — which one to use?](https://towardsdatascience.com/bert-roberta-distilbert-xlnet-which-one-to-use-3d5ab82ba5f8#e18a-828e5fc317c7)
-
-- [The Illustrated BERT, ELMo, and co. (How NLP Cracked Transfer Learning)](http://jalammar.github.io/illustrated-bert/)
-
-## Implementation Resources - implementations of BERT.
+- [onnxruntime](https://github.com/microsoft/onnxruntime) ONNX Runtime: cross-platform, high performance scoring engine for ML models. This library was recently open-sourced by Microsoft; it contains several model-specific optimisations including one for transformer models. It works by compiling a model's architecture through the Open Neural Network Exchange (ONNX) standard and optimising it for a platform's hardware.
 
 - [google-research/bert](https://github.com/google-research/bert)
 The original code. TensorFlow code and pre-trained models for BERT.
@@ -52,6 +34,26 @@ Implementation of BERT that could load official pre-trained models for feature e
 
 - [hanxiao/bert-as-service](https://github.com/hanxiao/bert-as-service)
  `bert-as-service` uses BERT as a sentence encoder and hosts it as a service via ZeroMQ, allowing you to map sentences into fixed-length representations in just two lines of code.
+
+## Descriptive Resources - how BERT works.
+
+- [Visualizing A Neural Machine Translation Model (Mechanics of Seq2seq Models With Attention)](https://jalammar.github.io/visualizing-neural-machine-translation-mechanics-of-seq2seq-models-with-attention/)
+
+- [The Illustrated Transformer](http://jalammar.github.io/illustrated-transformer/)
+
+- [Sequence-to-sequence modeling with `NN.TRANSFORMER` and `TORCHTEXT`](https://pytorch.org/tutorials/beginner/transformer_tutorial.html)
+
+- [Exploring BERT's Vocabulary](http://juditacs.github.io/2019/02/19/bert-tokenization-stats.html)
+
+- [BERT to the rescue!](https://towardsdatascience.com/bert-to-the-rescue-17671379687f)
+
+- [Pre-training BERT from scratch with cloud TPU](https://mc.ai/pre-training-bert-from-scratch-with-cloud-tpu/)
+
+- [BERT Technology introduced in 3-minutes](https://towardsdatascience.com/bert-technology-introduced-in-3-minutes-2c2f9968268c)
+
+- [BERT, RoBERTa, DistilBERT, XLNet — which one to use?](https://towardsdatascience.com/bert-roberta-distilbert-xlnet-which-one-to-use-3d5ab82ba5f8#e18a-828e5fc317c7)
+
+- [The Illustrated BERT, ELMo, and co. (How NLP Cracked Transfer Learning)](http://jalammar.github.io/illustrated-bert/)
 
 ## General Resources
 
