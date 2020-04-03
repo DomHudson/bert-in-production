@@ -66,21 +66,18 @@ Original RoBERTa paper.
 - [SentencePiece: A simple and language independent subword tokenizer and detokenizer for Neural Text Processing](https://www.aclweb.org/anthology/D18-2012.pdf)
 Paper describing a similar sub-word tokenization approach to BERT's.
 
+- [Small and Practical BERT Models for Sequence Labeling](https://arxiv.org/abs/1909.00100)
+
+
 ## Knowledge Distillation
 
-One technique to make large models more production ready is to train a smaller "student" network on the outputs of the larger "teacher" network. This is called Knowledge Distillation.
+One technique to make large models more production-ready is to train a smaller "student" network on the outputs of the larger "teacher" network. This is called Knowledge Distillation.
 
 - [Distilling Task-Specific Knowledge from BERT into Simple Neural Networks](https://arxiv.org/abs/1903.12136)
 
 - [TinyBERT: Distilling BERT for Natural Language Understanding](https://arxiv.org/abs/1909.10351)
 
 - [DistilBERT, a distilled version of BERT: smaller, faster, cheaper and lighter](https://arxiv.org/abs/1910.01108) DistilBERT is a popular distilled bert by the authors of the huggingface library. They use half of the number of layers as BERT. [Related article](https://medium.com/huggingface/distilbert-8cf3380435b5)
-
-## Investigations Into BERT
-
-- [What Does BERT Look At? An Analysis of BERT's Attention](https://nlp.stanford.edu/pubs/clark2019what.pdf)
-
-- [Investigating BERT’s Knowledge of Language: Five Analysis Methods with NPIs](https://arxiv.org/abs/1909.02597)
 
 ## Compression
 
@@ -101,6 +98,12 @@ Learn how to use pruning to speed up BERT
 - [Q8BERT: Quantized 8Bit BERT](https://arxiv.org/abs/1910.06188) Recently, pre-trained Transformer based language models such as BERT and GPT, have shown great improvement in many Natural Language Processing (NLP) tasks. However, these models contain a large amount of parameters. The emergence of even larger and more accurate models such as GPT2 and Megatron, suggest a trend of large pre-trained Transformer models. However, using these large models in production environments is a complex task requiring a large amount of compute, memory and power resources. In this work we show how to perform quantization-aware training during the fine-tuning phase of BERT in order to compress BERT by 4× with minimal accuracy loss. Furthermore, the produced quantized model can accelerate inference speed if it is optimized for 8bit Integer supporting hardware. 
 
 - [TinyBERT: Distilling BERT for Natural Language Understanding](https://arxiv.org/abs/1909.10351) Language model pre-training, such as BERT, has significantly improved the performances of many natural language processing tasks. However, pre-trained language models are usually computationally expensive and memory intensive, so it is difficult to effectively execute them on some resource-restricted devices. To accelerate inference and reduce model size while maintaining accuracy, we firstly propose a novel transformer distillation method that is a specially designed knowledge distillation (KD) method for transformer-based models. By leveraging this new KD method, the plenty of knowledge encoded in a large teacher BERT can be well transferred to a small student TinyBERT. Moreover, we introduce a new two-stage learning framework for TinyBERT, which performs transformer distillation at both the pre-training and task-specific learning stages. This framework ensures that TinyBERT can capture both the general-domain and task-specific knowledge of the teacher BERT.TinyBERT is empirically effective and achieves more than 96% the performance of teacher BERTBASE on GLUE benchmark while being 7.5x smaller and 9.4x faster on inference. TinyBERT is also significantly better than state-of-the-art baselines on BERT distillation, with only about 28% parameters and about 31% inference time of them. 
+
+## Investigations Into BERT
+
+- [What Does BERT Look At? An Analysis of BERT's Attention](https://nlp.stanford.edu/pubs/clark2019what.pdf)
+
+- [Investigating BERT’s Knowledge of Language: Five Analysis Methods with NPIs](https://arxiv.org/abs/1909.02597)
 
 ## Other Resources
 
