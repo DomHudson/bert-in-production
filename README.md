@@ -67,6 +67,8 @@ These papers do a deep analysis of the internals of BERT. Understanding the inte
 
 - [On Identifiability in Transformers](https://arxiv.org/abs/1908.04211)
 
+- [Are Sixteen Heads Really Better than One?](https://arxiv.org/abs/1905.10650)
+
 ## General Resources
 
 Original papers describing architectures and methodologies that the 
