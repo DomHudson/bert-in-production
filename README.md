@@ -4,9 +4,10 @@ A small collection of resources on using BERT (https://arxiv.org/abs/1810.04805
 ) and related Language Models in production environments.
 
 
-## Implementation Resources - implementations of BERT and production-ready tools
+## Implementations
+Implementations and production-ready tools related to BERT.
 
-- [onnxruntime](https://github.com/microsoft/onnxruntime) ONNX Runtime: cross-platform, high performance scoring engine for ML models. This library was recently open-sourced by Microsoft; it contains several model-specific optimisations including one for transformer models. It works by compiling a model's architecture through the Open Neural Network Exchange (ONNX) standard and optimising it for a platform's hardware.
+- [onnxruntime](https://github.com/microsoft/onnxruntime) This library was recently open-sourced by Microsoft; it contains several model-specific optimisations including one for transformer models. It works by compiling a model's architecture through the Open Neural Network Exchange (ONNX) standard and optimising it for a platform's hardware.
 
 - [google-research/bert](https://github.com/google-research/bert)
 The original code. TensorFlow code and pre-trained models for BERT.
@@ -35,7 +36,8 @@ Implementation of BERT that could load official pre-trained models for feature e
 - [hanxiao/bert-as-service](https://github.com/hanxiao/bert-as-service)
  `bert-as-service` uses BERT as a sentence encoder and hosts it as a service via ZeroMQ, allowing you to map sentences into fixed-length representations in just two lines of code.
 
-## Descriptive Resources - how BERT works.
+## Descriptive Resources
+Articles and papers describing how BERT works.
 
 - [Visualizing A Neural Machine Translation Model (Mechanics of Seq2seq Models With Attention)](https://jalammar.github.io/visualizing-neural-machine-translation-mechanics-of-seq2seq-models-with-attention/)
 
@@ -55,18 +57,24 @@ Implementation of BERT that could load official pre-trained models for feature e
 
 - [The Illustrated BERT, ELMo, and co. (How NLP Cracked Transfer Learning)](http://jalammar.github.io/illustrated-bert/)
 
+## Deep Analysis
+
+These papers do a deep analysis of the internals of BERT. Understanding the internals of a model can enable more efficient optimisations.
+
+- [What Does BERT Look At? An Analysis of BERT's Attention](https://nlp.stanford.edu/pubs/clark2019what.pdf)
+
+- [Investigating BERT’s Knowledge of Language: Five Analysis Methods with NPIs](https://arxiv.org/abs/1909.02597)
+
+
 ## General Resources
+
+Original papers describing architectures and methodologies that the 
 
 - [BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding](https://arxiv.org/pdf/1810.04805.pdf)
 Original BERT paper.
 
-- [RoBERTa: A Robustly Optimized BERT Pretraining Approach](https://arxiv.org/pdf/1907.11692.pdf)
-Original RoBERTa paper.
-
 - [SentencePiece: A simple and language independent subword tokenizer and detokenizer for Neural Text Processing](https://www.aclweb.org/anthology/D18-2012.pdf)
 Paper describing a similar sub-word tokenization approach to BERT's.
-
-- [Small and Practical BERT Models for Sequence Labeling](https://arxiv.org/abs/1909.00100)
 
 
 ## Speed
@@ -76,6 +84,8 @@ One of the big problems with running BERT-like models in production is the time 
 ### Knowledge Distillation
 
 One way to make a model faster is to reduce the amount of computation required to generate its output - Knowledge Distillation is the process of training a smaller "student" model from a larger "teacher" network. The smaller model is then deployed to production.
+
+- [Small and Practical BERT Models for Sequence Labeling](https://arxiv.org/abs/1909.00100)
 
 - [Distilling Task-Specific Knowledge from BERT into Simple Neural Networks](https://arxiv.org/abs/1903.12136)
 
@@ -102,13 +112,10 @@ Learn how to use pruning to speed up BERT.
 
 - [TinyBERT: Distilling BERT for Natural Language Understanding](https://arxiv.org/abs/1909.10351) Language model pre-training, such as BERT, has significantly improved the performances of many natural language processing tasks. However, pre-trained language models are usually computationally expensive and memory intensive, so it is difficult to effectively execute them on some resource-restricted devices. To accelerate inference and reduce model size while maintaining accuracy, we firstly propose a novel transformer distillation method that is a specially designed knowledge distillation (KD) method for transformer-based models. By leveraging this new KD method, the plenty of knowledge encoded in a large teacher BERT can be well transferred to a small student TinyBERT. Moreover, we introduce a new two-stage learning framework for TinyBERT, which performs transformer distillation at both the pre-training and task-specific learning stages. This framework ensures that TinyBERT can capture both the general-domain and task-specific knowledge of the teacher BERT.TinyBERT is empirically effective and achieves more than 96% the performance of teacher BERTBASE on GLUE benchmark while being 7.5x smaller and 9.4x faster on inference. TinyBERT is also significantly better than state-of-the-art baselines on BERT distillation, with only about 28% parameters and about 31% inference time of them. 
 
-## Investigations Into BERT
-
-- [What Does BERT Look At? An Analysis of BERT's Attention](https://nlp.stanford.edu/pubs/clark2019what.pdf)
-
-- [Investigating BERT’s Knowledge of Language: Five Analysis Methods with NPIs](https://arxiv.org/abs/1909.02597)
-
 ## Other Resources
+
+- [RoBERTa: A Robustly Optimized BERT Pretraining Approach](https://arxiv.org/pdf/1907.11692.pdf)
+Original RoBERTa paper.
 
 - [Deploying BERT in production](https://towardsdatascience.com/deploy-bert-ef20636fc337)
 
