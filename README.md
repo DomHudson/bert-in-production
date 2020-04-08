@@ -18,7 +18,7 @@ Facebook AI Research Sequence-to-Sequence Toolkit written in Python. Contains th
 - [google-research/google-research](https://github.com/google-research/google-research/tree/master/albert)
 Google AI Research. Contains original code for Albert.
 
-- [huggingface/transformers](https://github.com/huggingface/transformers) ￼Transformers: State-of-the-art Natural Language Processing for TensorFlow 2.0 and PyTorch.
+- [huggingface/transformers](https://github.com/huggingface/transformers) Transformers: State-of-the-art Natural Language Processing for TensorFlow 2.0 and PyTorch.
 
 - [huggingface/tokenizers](https://github.com/huggingface/tokenizers) Fast State-of-the-Art Tokenizers optimized for Research and Production
 
