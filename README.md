@@ -71,7 +71,7 @@ These papers do a deep analysis of the internals of BERT. Understanding the inte
 
 ## General Resources
 
-Original papers describing architectures and methodologies that the 
+Original papers describing architectures and methodologies intrisinc to a BERT-style language model.
 
 - [BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding](https://arxiv.org/pdf/1810.04805.pdf)
 Original BERT paper.
@@ -79,6 +79,7 @@ Original BERT paper.
 - [SentencePiece: A simple and language independent subword tokenizer and detokenizer for Neural Text Processing](https://www.aclweb.org/anthology/D18-2012.pdf)
 Paper describing a similar sub-word tokenization approach to BERT's.
 
+- [Attention Is All You Need](https://arxiv.org/abs/1706.03762) This paper introduced the Transformer architecture.
 
 ## Speed
 
